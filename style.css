@@ -196,6 +196,14 @@ header {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .sectionwrapper {
+    margin: 0 5vw;
+}
+
+}
+
+
 /**/
 
 /* forsiden */
@@ -204,6 +212,7 @@ header {
 
 body .forside {
     background-color: #000000;
+        padding-bottom: 50px;
 }
 
 .forside p {
